@@ -3,13 +3,10 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/cats">Cats</router-link> |
-      <router-link to="/dogs">Dogs</router-link>
+      <router-link to="/dogs">Dogs</router-link> 
     </div>
-          <!-- <b-card-img bottom src="https://picsum.photos/600/200/" alt="Image 21" /> -->
-    <b-img :src="require('@/assets/pets.jpg')" fluid alt="Pets Image" class='w-100'/>
     <b-container>
       <router-view/>
-
     </b-container>
   </div>
 </template>
@@ -28,7 +25,7 @@
 
   a {
     font-weight: bold;
-    // color: #2c3e50;
+    color: #2c3e50;
 
     &.router-link-exact-active {
       color: #42b983;
